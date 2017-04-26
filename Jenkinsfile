@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hktest') {
       steps {
-        sh 'echo %build_code%'
+        sh 'dir'
       }
     }
   }
